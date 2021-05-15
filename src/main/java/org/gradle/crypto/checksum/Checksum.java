@@ -41,6 +41,7 @@ public class Checksum extends DefaultTask {
 
     public enum Algorithm {
         MD5(Hashing.md5()),
+        SHA1(Hashing.sha1()),
         SHA256(Hashing.sha256()),
         SHA384(Hashing.sha384()),
         SHA512(Hashing.sha512());
